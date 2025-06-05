@@ -33,10 +33,10 @@
                             <!--begin::Stats-->
                             <div class="d-flex flex-wrap">
                                 <div class="border border-gray-300 border-dashed rounded min-w-auto py-3 px-4 me-6 mb-3">
-                                    <div class="fw-semibold fs-6 text-gray-700">Penempatan</div>
+                                    <div class="fw-semibold fs-4 text-gray-700">Penempatan</div>
                                     <!--begin::Number-->
                                     <div class="d-flex align-items-center text-uppercase">
-                                        <div class="fs-2 fw-bold">
+                                        <div class="fs-4 fw-bold">
                                             @if($staff->getStaffPosition->branch_position_id)
                                                 <span class="text-info">{{ $staff->getStaffPosition->getBranch->name }}</span><br>
                                                 <span class="text-success">
